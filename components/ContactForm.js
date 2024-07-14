@@ -23,7 +23,7 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    emailjs.sendForm('service_iwyjxaq', 'template_kudqlmk', form.current, 'iq8NNxpflwTfvUzaf')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
