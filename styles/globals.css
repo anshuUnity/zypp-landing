@@ -1,0 +1,28 @@
+/* styles/globals.css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .mobile-menu button {
+    margin-bottom: 10px;
+  }
+  
